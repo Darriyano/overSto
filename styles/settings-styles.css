@@ -10,23 +10,25 @@
     color: #393B43;
 }
 
-.log-screen {
-    font-size: 30px;
-    margin-top: 50px;
-    padding: 260px 340px 260px 340px;
+#robotID {
+    font-family: "Oswald", sans-serif;
     border-radius: 20px;
-    background-color: #EBEBEB;
-    color: #BBBCBE;
-    font-weight: lighter;
+    border: none;
+    background-color: #CFCFD1;
+    color: #95969A;
+    font-size: 30px;
+    margin-top: 51px;
+    padding: 7px 492px 6px 26px;
 }
 
-.clear-btn {
-    margin-top: 50px;
+.connect-btn {
+    margin-top: 130px;
     border-radius: 20px;
     font-family: "Oswald", sans-serif;
     border: none;
     font-size: 30px;
-    background-color: #D8D8D8;
+    background-color: #FCC26E;
     color: #393B43;
-    padding: 11px 40px 11px 40px;
+    padding: 8px 24px 8px 24px;
+
 }
