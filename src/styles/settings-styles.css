@@ -1,0 +1,34 @@
+.page-container {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #393B43;
+}
+
+#robotID {
+    font-family: "Oswald", sans-serif;
+    border-radius: 20px;
+    border: none;
+    background-color: #CFCFD1;
+    color: #95969A;
+    font-size: 30px;
+    margin-top: 51px;
+    padding: 7px 492px 6px 26px;
+}
+
+.connect-btn {
+    margin-top: 130px;
+    border-radius: 20px;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    font-size: 30px;
+    background-color: #FCC26E;
+    color: #393B43;
+    padding: 8px 24px 8px 24px;
+
+}

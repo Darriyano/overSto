@@ -1,0 +1,32 @@
+.page-container {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #393B43;
+}
+
+.log-screen {
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 260px 340px 260px 340px;
+    border-radius: 20px;
+    background-color: #EBEBEB;
+    color: #BBBCBE;
+}
+
+.clear-btn {
+    margin-top: 50px;
+    border-radius: 20px;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    font-size: 30px;
+    background-color: #D8D8D8;
+    color: #393B43;
+    padding: 11px 40px 11px 40px;
+
+}

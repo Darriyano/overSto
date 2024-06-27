@@ -1,12 +1,16 @@
-import {useState} from "react";
+import {FC, useState} from "react";
 import "../styles/menu.css";
 import {Link} from "react-router-dom";
 
-const MenuComponent = () => {
+const MenuComponent: FC = () => {
     const [isOpen, setter] = useState(false);
 
     const toggleMenu = () => {
         setter(!isOpen);
+    }
+
+    const closeMenu = () => {
+        setter(false);
     }
 
     return (
@@ -22,15 +26,15 @@ const MenuComponent = () => {
                 <div className="dropdown-menu">
                     <div className='h1'>Меню</div>
 
-                    <div className="marg"><Link to="/card">Карта робота</Link></div>
+                    <div className="marg"><Link to="/card" onClick={closeMenu}>Карта робота</Link></div>
                     <nav></nav>
-                    <div className="marg"><Link to="/diagnosis">Диагностика</Link></div>
+                    <div className="marg"><Link to="/diagnosis" onClick={closeMenu}>Диагностика</Link></div>
                     <nav></nav>
-                    <div className="marg"><Link to="/logs">Логи и ошибки</Link></div>
+                    <div className="marg"><Link to="/logs" onClick={closeMenu}>Логи и ошибки</Link></div>
                     <nav></nav>
-                    <div className="marg"><Link to="/robo-setting">Настройки робота</Link></div>
+                    <div className="marg"><Link to="/robo-setting" onClick={closeMenu}>Настройки робота</Link></div>
                     <nav></nav>
-                    <div className="marg"><Link to="/app-settings">Настройки приложения</Link></div>
+                    <div className="marg"><Link to="/app-settings" onClick={closeMenu}>Настройки приложения</Link></div>
                 </div>
             )}
         </div>
